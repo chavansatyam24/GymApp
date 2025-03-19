@@ -1,0 +1,76 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border:none;
+    outline: none;
+    scroll-behavior: smooth;
+    background: var(--bg--color);
+    color: var(--text-color);
+    
+     font-family: -apple-system, sans-serif;
+      
+      }
+
+      :root{
+        --bg--color:#000;;
+        --snd-bg-color:#111;
+        --text-color:#fff;
+        --main-color:#8A2BE2;
+
+      }
+      .payment-content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .payment-content h1{
+        color: var(--main-color);
+        font-size: 4rem;
+        font-weight: 700;
+}
+.payment-content p{
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin-top: 25px;
+}
+#rzp-button1{
+  margin-top: 21px;
+  color: whitesmoke;
+  display:inline-block;
+  padding: 14px;
+  background: transparent;
+  color: 2px solid var(--main-color) ;
+  border-radius: 1rem;
+  border: 2px solid var(--main-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: all 0.5s ease;
+}
+#rzp-button1:hover{
+  background-color: var(--main-color);
+  color: var(--text-color);
+  box-shadow:  0 0 18px var(--main-color);
+}
+
+@media (max-width:991px){
+  .payment{
+    text-align: center;
+
+  }
+  
+}
+@media (max-width:300px){
+  .payment h1{
+    font-size: 2.5rem;
+  }
+
+}
+
+
+      
